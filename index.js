@@ -36,5 +36,5 @@ class Route {
   estimatedTime(peak) {
      return peak ? this.blocksTravelled() : console.log('off peak');
   }
-  
+
 }
