@@ -33,7 +33,7 @@ class Route {
     return vertical + horizontal;
   }
 
-  estimatedTime() {
-
+  estimatedTime(peak) {
+    peak ? console.log('peak') : console.log('off peak');
   }
 }
