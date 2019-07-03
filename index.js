@@ -31,7 +31,7 @@ class Route {
     const vertical = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
 
     const horizontal = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal));
-    console.log(horizontal);
+
     return vertical + horizontal;
   }
 }
