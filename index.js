@@ -17,6 +17,6 @@ class Route {
 
   blocksTravelled() {
     console.log(this.beginningLocation.vertical);
-    return this.beginningLocation.vertical - this.endingLocation.vertical;
+    return Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
   }
 }
